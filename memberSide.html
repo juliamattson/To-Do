@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do</title>
+    <link rel="stylesheet" href="./memberSide.css">
+    <script src="https://kit.fontawesome.com/e8127072bf.js" crossorigin="anonymous"></script>
+</head>
+<body onload="initSite()">
+    <div class="navbar">
+        <p onclick="toStart()" class="toDoText">ToDo</p>
+        <div id="contactIcon">
+            <div id="logoutDiv" onclick="logOut()">Logga ut</div>
+            <i class="fas fa-address-book"  onclick="toContactPage()"></i>
+        </div>
+    </div>
+
+    <div id="main">
+        <p id="userName"></p>
+        <ul id="toDoList"></ul>
+    </div>
+      
+    <div id="footer">
+        <div onclick="toCV()" id="cv">
+            CV
+        </div>
+        <div id="infoFooter">Av: Julia Mattson WIE19G</div>
+        <div id="date"></div>
+    </div>
+    
+    <script src="./memberSide.js"></script>
+</body>
+</html>

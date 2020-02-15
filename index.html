@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e8127072bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <p onclick="toStart()" class="toDoText">ToDo</p>
+        <div class="logInForm">
+            <input type="text" placeholder="Användarnamn" id="username">
+            <input type="password" placeholder="Lösenord" id="password">
+        </div>
+        <div id="logInButton" onclick="logIn()">Logga in</div>
+        <div id="contactIcon">
+            <i class="fas fa-address-book" onclick="toContactPage()"></i>
+        </div>
+    </div>
+    <div id="main">
+        <div id="header">Välkommen!</div>
+        <h2>Skapa ny användare</h1>
+        Användarnamn:<input type="text" id="input1">
+        Lösenord:<input type="password" id="input2">
+        <div id="createButton" onclick="createUserButton()">Registrera!</div>
+    </div>    
+    <div id="footer">
+        <div onclick="toCV()" id="cv">
+            CV
+        </div>
+        <div id="infoFooter">Av: Julia Mattson WIE19G</div>
+        <div id="date"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: darkslategrey;
+    color: white;
+    width: 100vw;
+    height: 70px;
+}
+
+.toDoText {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toDoText:hover {
+    color: rgb(150, 182, 182);
+    cursor: pointer;
+}
+
+#contactIcon {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.fa-address-book:hover {
+    color: rgb(150, 182, 182);
+    cursor: pointer;
+}
+
+.fa-user-friends {
+    padding-right: 10px;
+}
+
+.fa-user-friends:hover {
+    color: rgb(150, 182, 182);
+    cursor: pointer;
+}
+
+main {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    color: darkslategray;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#information {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
